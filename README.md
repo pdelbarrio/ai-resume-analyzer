@@ -1,87 +1,87 @@
-# Welcome to React Router!
+# ResumeRanker - AI Resume Analysis Platform
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## 🚀 Overview
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+ResumeRanker is a modern web application that helps job seekers analyze and optimize their resumes through AI-powered feedback. Built with React and integrated with Puter for storage and authentication.
 
-## Features
+## ✨ Key Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **Resume Analysis & Feedback**:
 
-## Getting Started
+  - ATS compatibility check
+  - Content evaluation
+  - Skills assessment
+  - Improvement suggestions
 
-### Installation
+- **User Management**:
+  - Resume history tracking
+  - Multiple resume support
+  - Progress monitoring
+  - Secure authentication via Puter
 
-Install the dependencies:
+## 🛠️ Technical Stack
 
-```bash
-npm install
-```
+### Core Technologies
 
-### Development
+- **React 19** with TypeScript
+- **React Router** for navigation
+- **TailwindCSS** for styling
+- **Puter** for storage and authentication
+- **React Dropzone** for file uploads
+- **Zustand** for state management
 
-Start the development server with HMR:
+## 🌟 Project Highlights
 
-```bash
-npm run dev
-```
+### Modern Development Practices
 
-Your application will be available at `http://localhost:5173`.
+- TypeScript for type safety
+- Component-based architecture
+- Responsive design with TailwindCSS
+- Clean and maintainable code structure
 
-## Building for Production
+### User Experience
 
-Create a production build:
+- Intuitive file upload interface
+- Real-time feedback
+- Responsive design
+- Seamless authentication flow
 
-```bash
-npm run build
-```
+### State Management
 
-## Deployment
+- Efficient data handling with Puter KV store
+- Organized state management
+- Type-safe implementations
 
-### Docker Deployment
+## 🔧 Technical Implementation
 
-To build and run using Docker:
+### File Handling
 
-```bash
-docker build -t my-app .
+- Secure file upload with React Dropzone
+- PDF validation
+- Error handling
+- Progress tracking
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+### Authentication Flow
 
-The containerized application can be deployed to any platform that supports Docker, including:
+- Secure authentication via Puter
+- Protected routes
+- Session management
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+### Data Storage
 
-### DIY Deployment
+- Efficient key-value storage with Puter
+- Resume version control
+- Data persistence
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+## 📚 Libraries Used
 
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- `react-dropzone`: File upload management
+- `@puter/client`: Storage and authentication
+- `react-router-dom`: Navigation
+- `tailwindcss`: Styling
+- `typescript`: Type safety
+- `zustand`: Manage state
 
 ---
 
-Built with ❤️ using React Router.
+This project demonstrates proficiency in modern web development, focusing on user experience and clean code architecture while leveraging cloud services for authentication and storage.
