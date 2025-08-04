@@ -1,8 +1,8 @@
-# ResumeRanker - AI Resume Analysis Platform
+# BoostMyCV - AI Resume Analysis Platform
 
 ## 🚀 Overview
 
-ResumeRanker is a modern web application that helps job seekers analyze and optimize their resumes through AI-powered feedback. Built with React and integrated with Puter for storage and authentication.
+BoostMyCV is a modern web application that helps job seekers analyze and optimize their resumes through AI-powered feedback. Built with React and integrated with Puter for storage and authentication.
 
 ## ✨ Key Features
 

@@ -7,7 +7,7 @@ import { usePuterStore } from "~/lib/puter";
 
 export const meta = () => {
   [
-    { title: "ResumeRanker | Review" },
+    { title: "BoostMyCV | Review" },
     { name: "description", content: "Detailed overview of your resume" },
   ];
 };
